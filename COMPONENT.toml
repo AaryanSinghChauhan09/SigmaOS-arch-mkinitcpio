@@ -3,7 +3,7 @@ name = "SigmaOS-arch-mkinitcpio"
 tier = 2
 stability = "scaffold"
 language = "rust"
-description = "arch-mkinitcpio component"
+description = "SigmaOS SigmaOS-arch-mkinitcpio component"
 upstream = []
 
 [contract]
