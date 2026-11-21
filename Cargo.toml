@@ -1,10 +1,10 @@
 [package]
-name = "arch-mkinitcpio"
+name = "sigmaos-mkinitcpio"
 version = "0.1.0"
 edition = "2021"
-description = "SigmaOS SigmaOS-arch-mkinitcpio component - SigmaOS component"
+description = "SigmaOS SigmaOS-mkinitcpio component - SigmaOS component"
 license = "MIT"
-repository = "https://github.com/AaryanSinghChauhan09/SigmaOS-arch-mkinitcpio"
+repository = "https://github.com/AaryanSinghChauhan09/SigmaOS-mkinitcpio"
 
 [dependencies]
 thiserror = "2"

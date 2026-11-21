@@ -1,4 +1,4 @@
-use arch_mkinitcpio::Component;
+use sigmaos_mkinitcpio::Component;
 
 #[test]
 fn test_component_new_aaa() {

@@ -1,50 +1,50 @@
-# SigmaOS-SigmaOS-arch-mkinitcpio Component Wiki
+# SigmaOS-SigmaOS-mkinitcpio Component Wiki
 
 ## Overview
-SigmaOS-SigmaOS-arch-mkinitcpio provides SigmaOS SigmaOS-arch-mkinitcpio component for the SigmaOS operating system. It demonstrates the subsystem and integration within the SigmaOS ecosystem, following the principles of clear abstraction and deterministic initialization.
+SigmaOS-SigmaOS-mkinitcpio provides SigmaOS SigmaOS-mkinitcpio component for the SigmaOS operating system. It demonstrates the subsystem and integration within the SigmaOS ecosystem, following the principles of clear abstraction and deterministic initialization.
 
 ## Principles
 - Single Responsibility
-- SigmaOS-arch-mkinitcpio Abstraction
-- Fail-Fast on SigmaOS-arch-mkinitcpio Initialization Errors
-- Deterministic SigmaOS-arch-mkinitcpio Setup
-- Clear Abstraction Over SigmaOS-arch-mkinitcpio APIs
-- Composition over Inheritance for SigmaOS-arch-mkinitcpio extensions
+- SigmaOS-mkinitcpio Abstraction
+- Fail-Fast on SigmaOS-mkinitcpio Initialization Errors
+- Deterministic SigmaOS-mkinitcpio Setup
+- Clear Abstraction Over SigmaOS-mkinitcpio APIs
+- Composition over Inheritance for SigmaOS-mkinitcpio extensions
 
 ## Architecture
-SigmaOS-SigmaOS-arch-mkinitcpio follows a SigmaOS-arch-mkinitcpio pattern:
-- **SigmaOS-arch-mkinitcpio Core**: Provides SigmaOS-arch-mkinitcpio support, SigmaOS-arch-mkinitcpio management, and SigmaOS-arch-mkinitcpio tracking
-- **Management**: Supports SigmaOS-arch-mkinitcpio management, SigmaOS-arch-mkinitcpio configuration, and SigmaOS-arch-mkinitcpio lifecycle
-- **Tracking**: Supports SigmaOS-arch-mkinitcpio status, SigmaOS-arch-mkinitcpio tracking, and SigmaOS-arch-mkinitcpio lifecycle
-- **Error Handling**: Fail-fast on invalid SigmaOS-arch-mkinitcpio configurations or unsupported SigmaOS-arch-mkinitcpio types
+SigmaOS-SigmaOS-mkinitcpio follows a SigmaOS-mkinitcpio pattern:
+- **SigmaOS-mkinitcpio Core**: Provides SigmaOS-mkinitcpio support, SigmaOS-mkinitcpio management, and SigmaOS-mkinitcpio tracking
+- **Management**: Supports SigmaOS-mkinitcpio management, SigmaOS-mkinitcpio configuration, and SigmaOS-mkinitcpio lifecycle
+- **Tracking**: Supports SigmaOS-mkinitcpio status, SigmaOS-mkinitcpio tracking, and SigmaOS-mkinitcpio lifecycle
+- **Error Handling**: Fail-fast on invalid SigmaOS-mkinitcpio configurations or unsupported SigmaOS-mkinitcpio types
 
 ## API
 The component provides the following public APIs:
--  - Manage a SigmaOS-arch-mkinitcpio by given configuration
--  - Register a SigmaOS-arch-mkinitcpio by given name
--  - Get SigmaOS-arch-mkinitcpio status and SigmaOS-arch-mkinitcpio availability
--  - Track SigmaOS-arch-mkinitcpio management and SigmaOS-arch-mkinitcpio tracking
-- Error types for SigmaOS-arch-mkinitcpio failure scenarios or unsupported SigmaOS-arch-mkinitcpio types
+-  - Manage a SigmaOS-mkinitcpio by given configuration
+-  - Register a SigmaOS-mkinitcpio by given name
+-  - Get SigmaOS-mkinitcpio status and SigmaOS-mkinitcpio availability
+-  - Track SigmaOS-mkinitcpio management and SigmaOS-mkinitcpio tracking
+- Error types for SigmaOS-mkinitcpio failure scenarios or unsupported SigmaOS-mkinitcpio types
 
 ## Test Structure (Arrange-Act-ASSERT)
 All tests follow the AAA pattern:
-1. **Arrange**: Set up test environment with specific SigmaOS-arch-mkinitcpio configuration
-2. **Act**: Execute the code under test (SigmaOS-arch-mkinitcpio init, SigmaOS-arch-mkinitcpio management)
-3. **Assert**: Verify the expected SigmaOS-arch-mkinitcpio results
+1. **Arrange**: Set up test environment with specific SigmaOS-mkinitcpio configuration
+2. **Act**: Execute the code under test (SigmaOS-mkinitcpio init, SigmaOS-mkinitcpio management)
+3. **Assert**: Verify the expected SigmaOS-mkinitcpio results
 
 Example:
 
 
 ## Development
 - Follows Rust best practices with 
-- SigmaOS-arch-mkinitcpio initialization is best-effort; gracefully degrades on unsupported configurations
-- Comprehensive error types for all SigmaOS-arch-mkinitcpio failure scenarios
-- Unit tests provided for SigmaOS-arch-mkinitcpio management and configuration
-- Integration tests for full SigmaOS-arch-mkinitcpio system with actual SigmaOS-arch-mkinitcpio integration
+- SigmaOS-mkinitcpio initialization is best-effort; gracefully degrades on unsupported configurations
+- Comprehensive error types for all SigmaOS-mkinitcpio failure scenarios
+- Unit tests provided for SigmaOS-mkinitcpio management and configuration
+- Integration tests for full SigmaOS-mkinitcpio system with actual SigmaOS-mkinitcpio integration
 
 ## TODO
-- Add support for additional SigmaOS-arch-mkinitcpio types
-- Expand SigmaOS-arch-mkinitcpio capabilities (SigmaOS-arch-mkinitcpio features, SigmaOS-arch-mkinitcpio configurations, SigmaOS-arch-mkinitcpio tracking)
-- Add lifecycle features (SigmaOS-arch-mkinitcpio tracking, SigmaOS-arch-mkinitcpio lifecycle, SigmaOS-arch-mkinitcpio propagation)
-- Create integration tests with actual SigmaOS-arch-mkinitcpio systems and SigmaOS-arch-mkinitcpio integration
-- Implement SigmaOS-arch-mkinitcpio persistence and SigmaOS-arch-mkinitcpio state management
+- Add support for additional SigmaOS-mkinitcpio types
+- Expand SigmaOS-mkinitcpio capabilities (SigmaOS-mkinitcpio features, SigmaOS-mkinitcpio configurations, SigmaOS-mkinitcpio tracking)
+- Add lifecycle features (SigmaOS-mkinitcpio tracking, SigmaOS-mkinitcpio lifecycle, SigmaOS-mkinitcpio propagation)
+- Create integration tests with actual SigmaOS-mkinitcpio systems and SigmaOS-mkinitcpio integration
+- Implement SigmaOS-mkinitcpio persistence and SigmaOS-mkinitcpio state management

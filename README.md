@@ -1,6 +1,6 @@
-# SigmaOS-arch-mkinitcpio
+# SigmaOS-mkinitcpio
 
-SigmaOS SigmaOS-arch-mkinitcpio component
+SigmaOS SigmaOS-mkinitcpio component
 
 - **Category:** Components
 - **Engine:** component
